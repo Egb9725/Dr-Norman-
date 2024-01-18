@@ -9,7 +9,7 @@
     <form method="get" action="">
         <p>
             <label for="first-name">First Name:</label> <br>
-            <input type="text" id="first-name" name="first-name" size="30"/>
+            <input type="text" id="first-name" name="first-name" size="30" required autofocus/>
         </p>
         
         <p>
@@ -26,18 +26,17 @@
         </p>
         <p>
             <label for="gender">Gender:</label> <br>
-            <input type="radio" id="male" value="male"/>
-
+            <input type="radio" name="gender"id="gender" value="male"/>
             <label for="male">Male</label> <br>
-            <input type="radio" id="female" value="female"/>
+            <input type="radio"name="gender"id="gender" value="female"/>
 
             <label for="female">Female</label> <br>
-            <input type="radio" id="other" value="other" checked/>
+            <input type="radio" name="gender"id="gender" value="other" checked/>
             <label for="other">Other</label> <br>
         </p>
         <p>
             <label for="date-birth">Date of Birth</label> <br>
-            <input type="date" name="" id="">
+            <input type="date" name="gender" id="">
         </p>
         <p>
             <!-- C'est USA -->
@@ -56,7 +55,7 @@
             </textarea>
         </P>
         <P>
-            <input type="submit" value="submit"/>
+            <input type="submit" value="Enregistrer"/>
         </P>
     </form>
         
